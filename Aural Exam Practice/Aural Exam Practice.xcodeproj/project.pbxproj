@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E17AE671EB192FC0059521E /* Irish_A_Ruin_Violin_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE4D1EB192FC0059521E /* Irish_A_Ruin_Violin_01.caf */; };
+		2E17AE681EB192FC0059521E /* Irish_Bay_Bouzouki_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE4E1EB192FC0059521E /* Irish_Bay_Bouzouki_01.caf */; };
+		2E17AE691EB192FC0059521E /* Irish_Breton_Harp_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE4F1EB192FC0059521E /* Irish_Breton_Harp_01.caf */; };
+		2E17AE6A1EB192FC0059521E /* Irish_Breton_Harp_07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE501EB192FC0059521E /* Irish_Breton_Harp_07.caf */; };
+		2E17AE6B1EB192FC0059521E /* Irish_Briongloiid_Harp_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE511EB192FC0059521E /* Irish_Briongloiid_Harp_01.caf */; };
+		2E17AE6C1EB192FC0059521E /* Irish_Chante_Bodhran_03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE521EB192FC0059521E /* Irish_Chante_Bodhran_03.caf */; };
+		2E17AE6D1EB192FC0059521E /* Irish_Chante_Guitar_02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE531EB192FC0059521E /* Irish_Chante_Guitar_02.caf */; };
+		2E17AE6E1EB192FC0059521E /* Irish_Chante_Malodeon_03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE541EB192FC0059521E /* Irish_Chante_Malodeon_03.caf */; };
+		2E17AE6F1EB192FC0059521E /* Irish_Chante_Violin_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE551EB192FC0059521E /* Irish_Chante_Violin_01.caf */; };
+		2E17AE701EB192FC0059521E /* Irish_Chiann_Flute.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE561EB192FC0059521E /* Irish_Chiann_Flute.caf */; };
+		2E17AE711EB192FC0059521E /* Irish_Chiann_Violin_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE571EB192FC0059521E /* Irish_Chiann_Violin_01.caf */; };
+		2E17AE721EB192FC0059521E /* Irish_Chiann_Whistle_02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE581EB192FC0059521E /* Irish_Chiann_Whistle_02.caf */; };
+		2E17AE731EB192FC0059521E /* Irish_Cooley_Bouzouki.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE591EB192FC0059521E /* Irish_Cooley_Bouzouki.caf */; };
+		2E17AE741EB192FC0059521E /* Irish_Delight_Harp_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE5A1EB192FC0059521E /* Irish_Delight_Harp_01.caf */; };
+		2E17AE751EB192FC0059521E /* Irish_Dew_Melodeon_04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE5B1EB192FC0059521E /* Irish_Dew_Melodeon_04.caf */; };
+		2E17AE761EB192FC0059521E /* Irish_Frost_Bodhran_04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE5C1EB192FC0059521E /* Irish_Frost_Bodhran_04.caf */; };
+		2E17AE771EB192FC0059521E /* Irish_Frost_Flute_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE5D1EB192FC0059521E /* Irish_Frost_Flute_01.caf */; };
+		2E17AE781EB192FC0059521E /* Irish_Frost_Flute_05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE5E1EB192FC0059521E /* Irish_Frost_Flute_05.caf */; };
+		2E17AE791EB192FC0059521E /* Irish_Frost_Harp_04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE5F1EB192FC0059521E /* Irish_Frost_Harp_04.caf */; };
+		2E17AE7A1EB192FC0059521E /* Irish_Frost_Violin_08.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE601EB192FC0059521E /* Irish_Frost_Violin_08.caf */; };
+		2E17AE7B1EB192FC0059521E /* Irish_Ginger_Bouzouki_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE611EB192FC0059521E /* Irish_Ginger_Bouzouki_01.caf */; };
+		2E17AE7C1EB192FC0059521E /* Irish_Jig_Violin_04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE621EB192FC0059521E /* Irish_Jig_Violin_04.caf */; };
+		2E17AE7D1EB192FC0059521E /* Irish_Land_Bodhran_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE631EB192FC0059521E /* Irish_Land_Bodhran_01.caf */; };
+		2E17AE7E1EB192FC0059521E /* Irish_Nag_Harp_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE641EB192FC0059521E /* Irish_Nag_Harp_01.caf */; };
+		2E17AE7F1EB192FC0059521E /* Irish_Nag_Mandolin_02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE651EB192FC0059521E /* Irish_Nag_Mandolin_02.caf */; };
+		2E17AE801EB192FC0059521E /* Irish_Reel_Bouzouki_02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E17AE661EB192FC0059521E /* Irish_Reel_Bouzouki_02.caf */; };
+		2E3450D21EB288BA0043643B /* 2003-5-1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E3450D11EB288BA0043643B /* 2003-5-1.m4a */; };
+		2E3450D51EB288C90043643B /* Chante.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E3450D31EB288C90043643B /* Chante.m4a */; };
+		2E3450D61EB288C90043643B /* Chiann.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E3450D41EB288C90043643B /* Chiann.m4a */; };
+		2E3450DD1EB708FA0043643B /* 2003-5-3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E3450D71EB708FA0043643B /* 2003-5-3.m4a */; };
+		2E3450DE1EB708FA0043643B /* 2011-5-1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E3450D81EB708FA0043643B /* 2011-5-1.m4a */; };
+		2E3450DF1EB708FA0043643B /* 2011-5-2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E3450D91EB708FA0043643B /* 2011-5-2.m4a */; };
+		2E3450E01EB708FA0043643B /* 2012-5-1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E3450DA1EB708FA0043643B /* 2012-5-1.m4a */; };
+		2E3450E11EB708FA0043643B /* 2012-5-2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E3450DB1EB708FA0043643B /* 2012-5-2.m4a */; };
+		2E3450E21EB708FA0043643B /* 2012-5-3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E3450DC1EB708FA0043643B /* 2012-5-3.m4a */; };
+		2E816BD01EA6CA7D00A04077 /* Excerpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E816BCF1EA6CA7D00A04077 /* Excerpt.swift */; };
+		2E816BD21EA6CD2300A04077 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E816BD11EA6CD2300A04077 /* Question.swift */; };
+		2E816BDD1EA80AA300A04077 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E816BDC1EA80AA300A04077 /* MenuViewController.swift */; };
+		2EA517AC1E9D8B6800CCAEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA517AB1E9D8B6800CCAEEA /* AppDelegate.swift */; };
+		2EA517AE1E9D8B6800CCAEEA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA517AD1E9D8B6800CCAEEA /* QuizViewController.swift */; };
+		2EA517B11E9D8B6800CCAEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA517AF1E9D8B6800CCAEEA /* Main.storyboard */; };
+		2EA517B31E9D8B6800CCAEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA517B21E9D8B6800CCAEEA /* Assets.xcassets */; };
+		2EA517B61E9D8B6800CCAEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA517B41E9D8B6800CCAEEA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E17AE4D1EB192FC0059521E /* Irish_A_Ruin_Violin_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_A_Ruin_Violin_01.caf; sourceTree = "<group>"; };
+		2E17AE4E1EB192FC0059521E /* Irish_Bay_Bouzouki_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Bay_Bouzouki_01.caf; sourceTree = "<group>"; };
+		2E17AE4F1EB192FC0059521E /* Irish_Breton_Harp_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Breton_Harp_01.caf; sourceTree = "<group>"; };
+		2E17AE501EB192FC0059521E /* Irish_Breton_Harp_07.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Breton_Harp_07.caf; sourceTree = "<group>"; };
+		2E17AE511EB192FC0059521E /* Irish_Briongloiid_Harp_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Briongloiid_Harp_01.caf; sourceTree = "<group>"; };
+		2E17AE521EB192FC0059521E /* Irish_Chante_Bodhran_03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Chante_Bodhran_03.caf; sourceTree = "<group>"; };
+		2E17AE531EB192FC0059521E /* Irish_Chante_Guitar_02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Chante_Guitar_02.caf; sourceTree = "<group>"; };
+		2E17AE541EB192FC0059521E /* Irish_Chante_Malodeon_03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Chante_Malodeon_03.caf; sourceTree = "<group>"; };
+		2E17AE551EB192FC0059521E /* Irish_Chante_Violin_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Chante_Violin_01.caf; sourceTree = "<group>"; };
+		2E17AE561EB192FC0059521E /* Irish_Chiann_Flute.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Chiann_Flute.caf; sourceTree = "<group>"; };
+		2E17AE571EB192FC0059521E /* Irish_Chiann_Violin_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Chiann_Violin_01.caf; sourceTree = "<group>"; };
+		2E17AE581EB192FC0059521E /* Irish_Chiann_Whistle_02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Chiann_Whistle_02.caf; sourceTree = "<group>"; };
+		2E17AE591EB192FC0059521E /* Irish_Cooley_Bouzouki.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Cooley_Bouzouki.caf; sourceTree = "<group>"; };
+		2E17AE5A1EB192FC0059521E /* Irish_Delight_Harp_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Delight_Harp_01.caf; sourceTree = "<group>"; };
+		2E17AE5B1EB192FC0059521E /* Irish_Dew_Melodeon_04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Dew_Melodeon_04.caf; sourceTree = "<group>"; };
+		2E17AE5C1EB192FC0059521E /* Irish_Frost_Bodhran_04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Frost_Bodhran_04.caf; sourceTree = "<group>"; };
+		2E17AE5D1EB192FC0059521E /* Irish_Frost_Flute_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Frost_Flute_01.caf; sourceTree = "<group>"; };
+		2E17AE5E1EB192FC0059521E /* Irish_Frost_Flute_05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Frost_Flute_05.caf; sourceTree = "<group>"; };
+		2E17AE5F1EB192FC0059521E /* Irish_Frost_Harp_04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Frost_Harp_04.caf; sourceTree = "<group>"; };
+		2E17AE601EB192FC0059521E /* Irish_Frost_Violin_08.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Frost_Violin_08.caf; sourceTree = "<group>"; };
+		2E17AE611EB192FC0059521E /* Irish_Ginger_Bouzouki_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Ginger_Bouzouki_01.caf; sourceTree = "<group>"; };
+		2E17AE621EB192FC0059521E /* Irish_Jig_Violin_04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Jig_Violin_04.caf; sourceTree = "<group>"; };
+		2E17AE631EB192FC0059521E /* Irish_Land_Bodhran_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Land_Bodhran_01.caf; sourceTree = "<group>"; };
+		2E17AE641EB192FC0059521E /* Irish_Nag_Harp_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Nag_Harp_01.caf; sourceTree = "<group>"; };
+		2E17AE651EB192FC0059521E /* Irish_Nag_Mandolin_02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Nag_Mandolin_02.caf; sourceTree = "<group>"; };
+		2E17AE661EB192FC0059521E /* Irish_Reel_Bouzouki_02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Irish_Reel_Bouzouki_02.caf; sourceTree = "<group>"; };
+		2E3450D11EB288BA0043643B /* 2003-5-1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2003-5-1.m4a"; sourceTree = "<group>"; };
+		2E3450D31EB288C90043643B /* Chante.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chante.m4a; sourceTree = "<group>"; };
+		2E3450D41EB288C90043643B /* Chiann.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chiann.m4a; sourceTree = "<group>"; };
+		2E3450D71EB708FA0043643B /* 2003-5-3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2003-5-3.m4a"; sourceTree = "<group>"; };
+		2E3450D81EB708FA0043643B /* 2011-5-1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2011-5-1.m4a"; sourceTree = "<group>"; };
+		2E3450D91EB708FA0043643B /* 2011-5-2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2011-5-2.m4a"; sourceTree = "<group>"; };
+		2E3450DA1EB708FA0043643B /* 2012-5-1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2012-5-1.m4a"; sourceTree = "<group>"; };
+		2E3450DB1EB708FA0043643B /* 2012-5-2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2012-5-2.m4a"; sourceTree = "<group>"; };
+		2E3450DC1EB708FA0043643B /* 2012-5-3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2012-5-3.m4a"; sourceTree = "<group>"; };
+		2E816BCF1EA6CA7D00A04077 /* Excerpt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Excerpt.swift; sourceTree = "<group>"; };
+		2E816BD11EA6CD2300A04077 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2E816BDC1EA80AA300A04077 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
+		2EA517A81E9D8B6800CCAEEA /* Aural Exam Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aural Exam Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA517AB1E9D8B6800CCAEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EA517AD1E9D8B6800CCAEEA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		2EA517B01E9D8B6800CCAEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EA517B21E9D8B6800CCAEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EA517B51E9D8B6800CCAEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EA517B71E9D8B6800CCAEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EA517A51E9D8B6700CCAEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E816BD91EA8080100A04077 /* Excerpts */ = {
+			isa = PBXGroup;
+			children = (
+				2E3450D71EB708FA0043643B /* 2003-5-3.m4a */,
+				2E3450D81EB708FA0043643B /* 2011-5-1.m4a */,
+				2E3450D91EB708FA0043643B /* 2011-5-2.m4a */,
+				2E3450DA1EB708FA0043643B /* 2012-5-1.m4a */,
+				2E3450DB1EB708FA0043643B /* 2012-5-2.m4a */,
+				2E3450DC1EB708FA0043643B /* 2012-5-3.m4a */,
+				2E3450D31EB288C90043643B /* Chante.m4a */,
+				2E3450D41EB288C90043643B /* Chiann.m4a */,
+				2E3450D11EB288BA0043643B /* 2003-5-1.m4a */,
+				2E17AE4D1EB192FC0059521E /* Irish_A_Ruin_Violin_01.caf */,
+				2E17AE4E1EB192FC0059521E /* Irish_Bay_Bouzouki_01.caf */,
+				2E17AE4F1EB192FC0059521E /* Irish_Breton_Harp_01.caf */,
+				2E17AE501EB192FC0059521E /* Irish_Breton_Harp_07.caf */,
+				2E17AE511EB192FC0059521E /* Irish_Briongloiid_Harp_01.caf */,
+				2E17AE521EB192FC0059521E /* Irish_Chante_Bodhran_03.caf */,
+				2E17AE531EB192FC0059521E /* Irish_Chante_Guitar_02.caf */,
+				2E17AE541EB192FC0059521E /* Irish_Chante_Malodeon_03.caf */,
+				2E17AE551EB192FC0059521E /* Irish_Chante_Violin_01.caf */,
+				2E17AE561EB192FC0059521E /* Irish_Chiann_Flute.caf */,
+				2E17AE571EB192FC0059521E /* Irish_Chiann_Violin_01.caf */,
+				2E17AE581EB192FC0059521E /* Irish_Chiann_Whistle_02.caf */,
+				2E17AE591EB192FC0059521E /* Irish_Cooley_Bouzouki.caf */,
+				2E17AE5A1EB192FC0059521E /* Irish_Delight_Harp_01.caf */,
+				2E17AE5B1EB192FC0059521E /* Irish_Dew_Melodeon_04.caf */,
+				2E17AE5C1EB192FC0059521E /* Irish_Frost_Bodhran_04.caf */,
+				2E17AE5D1EB192FC0059521E /* Irish_Frost_Flute_01.caf */,
+				2E17AE5E1EB192FC0059521E /* Irish_Frost_Flute_05.caf */,
+				2E17AE5F1EB192FC0059521E /* Irish_Frost_Harp_04.caf */,
+				2E17AE601EB192FC0059521E /* Irish_Frost_Violin_08.caf */,
+				2E17AE611EB192FC0059521E /* Irish_Ginger_Bouzouki_01.caf */,
+				2E17AE621EB192FC0059521E /* Irish_Jig_Violin_04.caf */,
+				2E17AE631EB192FC0059521E /* Irish_Land_Bodhran_01.caf */,
+				2E17AE641EB192FC0059521E /* Irish_Nag_Harp_01.caf */,
+				2E17AE651EB192FC0059521E /* Irish_Nag_Mandolin_02.caf */,
+				2E17AE661EB192FC0059521E /* Irish_Reel_Bouzouki_02.caf */,
+			);
+			name = Excerpts;
+			sourceTree = "<group>";
+		};
+		2EA5179F1E9D8B6700CCAEEA = {
+			isa = PBXGroup;
+			children = (
+				2E816BD91EA8080100A04077 /* Excerpts */,
+				2EA517AA1E9D8B6800CCAEEA /* Aural Exam Practice */,
+				2EA517A91E9D8B6800CCAEEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EA517A91E9D8B6800CCAEEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EA517A81E9D8B6800CCAEEA /* Aural Exam Practice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EA517AA1E9D8B6800CCAEEA /* Aural Exam Practice */ = {
+			isa = PBXGroup;
+			children = (
+				2EA517AB1E9D8B6800CCAEEA /* AppDelegate.swift */,
+				2E816BDC1EA80AA300A04077 /* MenuViewController.swift */,
+				2EA517AD1E9D8B6800CCAEEA /* QuizViewController.swift */,
+				2E816BD11EA6CD2300A04077 /* Question.swift */,
+				2E816BCF1EA6CA7D00A04077 /* Excerpt.swift */,
+				2EA517AF1E9D8B6800CCAEEA /* Main.storyboard */,
+				2EA517B21E9D8B6800CCAEEA /* Assets.xcassets */,
+				2EA517B41E9D8B6800CCAEEA /* LaunchScreen.storyboard */,
+				2EA517B71E9D8B6800CCAEEA /* Info.plist */,
+			);
+			path = "Aural Exam Practice";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EA517A71E9D8B6700CCAEEA /* Aural Exam Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA517BA1E9D8B6800CCAEEA /* Build configuration list for PBXNativeTarget "Aural Exam Practice" */;
+			buildPhases = (
+				2EA517A41E9D8B6700CCAEEA /* Sources */,
+				2EA517A51E9D8B6700CCAEEA /* Frameworks */,
+				2EA517A61E9D8B6700CCAEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aural Exam Practice";
+			productName = "Aural Exam Practice";
+			productReference = 2EA517A81E9D8B6800CCAEEA /* Aural Exam Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EA517A01E9D8B6700CCAEEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bridget Bailey";
+				TargetAttributes = {
+					2EA517A71E9D8B6700CCAEEA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SM38AB76UY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2EA517A31E9D8B6700CCAEEA /* Build configuration list for PBXProject "Aural Exam Practice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EA5179F1E9D8B6700CCAEEA;
+			productRefGroup = 2EA517A91E9D8B6800CCAEEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EA517A71E9D8B6700CCAEEA /* Aural Exam Practice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EA517A61E9D8B6700CCAEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E17AE701EB192FC0059521E /* Irish_Chiann_Flute.caf in Resources */,
+				2E17AE7E1EB192FC0059521E /* Irish_Nag_Harp_01.caf in Resources */,
+				2E3450E11EB708FA0043643B /* 2012-5-2.m4a in Resources */,
+				2E17AE7D1EB192FC0059521E /* Irish_Land_Bodhran_01.caf in Resources */,
+				2E17AE781EB192FC0059521E /* Irish_Frost_Flute_05.caf in Resources */,
+				2E17AE6B1EB192FC0059521E /* Irish_Briongloiid_Harp_01.caf in Resources */,
+				2E3450E01EB708FA0043643B /* 2012-5-1.m4a in Resources */,
+				2E17AE801EB192FC0059521E /* Irish_Reel_Bouzouki_02.caf in Resources */,
+				2EA517B61E9D8B6800CCAEEA /* LaunchScreen.storyboard in Resources */,
+				2E17AE711EB192FC0059521E /* Irish_Chiann_Violin_01.caf in Resources */,
+				2E17AE771EB192FC0059521E /* Irish_Frost_Flute_01.caf in Resources */,
+				2EA517B31E9D8B6800CCAEEA /* Assets.xcassets in Resources */,
+				2E17AE681EB192FC0059521E /* Irish_Bay_Bouzouki_01.caf in Resources */,
+				2E3450D61EB288C90043643B /* Chiann.m4a in Resources */,
+				2E17AE731EB192FC0059521E /* Irish_Cooley_Bouzouki.caf in Resources */,
+				2E17AE751EB192FC0059521E /* Irish_Dew_Melodeon_04.caf in Resources */,
+				2E3450D51EB288C90043643B /* Chante.m4a in Resources */,
+				2E17AE7C1EB192FC0059521E /* Irish_Jig_Violin_04.caf in Resources */,
+				2E17AE6F1EB192FC0059521E /* Irish_Chante_Violin_01.caf in Resources */,
+				2E17AE721EB192FC0059521E /* Irish_Chiann_Whistle_02.caf in Resources */,
+				2E17AE791EB192FC0059521E /* Irish_Frost_Harp_04.caf in Resources */,
+				2E17AE671EB192FC0059521E /* Irish_A_Ruin_Violin_01.caf in Resources */,
+				2EA517B11E9D8B6800CCAEEA /* Main.storyboard in Resources */,
+				2E17AE6A1EB192FC0059521E /* Irish_Breton_Harp_07.caf in Resources */,
+				2E17AE6D1EB192FC0059521E /* Irish_Chante_Guitar_02.caf in Resources */,
+				2E17AE761EB192FC0059521E /* Irish_Frost_Bodhran_04.caf in Resources */,
+				2E17AE6E1EB192FC0059521E /* Irish_Chante_Malodeon_03.caf in Resources */,
+				2E17AE741EB192FC0059521E /* Irish_Delight_Harp_01.caf in Resources */,
+				2E3450DE1EB708FA0043643B /* 2011-5-1.m4a in Resources */,
+				2E17AE7F1EB192FC0059521E /* Irish_Nag_Mandolin_02.caf in Resources */,
+				2E17AE7B1EB192FC0059521E /* Irish_Ginger_Bouzouki_01.caf in Resources */,
+				2E3450DF1EB708FA0043643B /* 2011-5-2.m4a in Resources */,
+				2E17AE7A1EB192FC0059521E /* Irish_Frost_Violin_08.caf in Resources */,
+				2E3450D21EB288BA0043643B /* 2003-5-1.m4a in Resources */,
+				2E3450DD1EB708FA0043643B /* 2003-5-3.m4a in Resources */,
+				2E17AE691EB192FC0059521E /* Irish_Breton_Harp_01.caf in Resources */,
+				2E17AE6C1EB192FC0059521E /* Irish_Chante_Bodhran_03.caf in Resources */,
+				2E3450E21EB708FA0043643B /* 2012-5-3.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA517A41E9D8B6700CCAEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E816BD01EA6CA7D00A04077 /* Excerpt.swift in Sources */,
+				2E816BDD1EA80AA300A04077 /* MenuViewController.swift in Sources */,
+				2E816BD21EA6CD2300A04077 /* Question.swift in Sources */,
+				2EA517AE1E9D8B6800CCAEEA /* QuizViewController.swift in Sources */,
+				2EA517AC1E9D8B6800CCAEEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EA517AF1E9D8B6800CCAEEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA517B01E9D8B6800CCAEEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EA517B41E9D8B6800CCAEEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA517B51E9D8B6800CCAEEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EA517B81E9D8B6800CCAEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EA517B91E9D8B6800CCAEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EA517BB1E9D8B6800CCAEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SM38AB76UY;
+				INFOPLIST_FILE = "Aural Exam Practice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbailey.Aural-Exam-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2EA517BC1E9D8B6800CCAEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SM38AB76UY;
+				INFOPLIST_FILE = "Aural Exam Practice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbailey.Aural-Exam-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EA517A31E9D8B6700CCAEEA /* Build configuration list for PBXProject "Aural Exam Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA517B81E9D8B6800CCAEEA /* Debug */,
+				2EA517B91E9D8B6800CCAEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA517BA1E9D8B6800CCAEEA /* Build configuration list for PBXNativeTarget "Aural Exam Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA517BB1E9D8B6800CCAEEA /* Debug */,
+				2EA517BC1E9D8B6800CCAEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EA517A01E9D8B6700CCAEEA /* Project object */;
+}

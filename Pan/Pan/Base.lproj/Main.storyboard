@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pan" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Water Background" translatesAutoresizingMaskIntoConstraints="NO" id="r0w-u2-nrM">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pan-flute" translatesAutoresizingMaskIntoConstraints="NO" id="Tbq-1L-JL6">
+                                <rect key="frame" x="0.0" y="12" width="1024" height="726"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Tbq-1L-JL6" secondAttribute="height" multiplier="845:599" id="aix-KY-cHw"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" tag="48" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJ1-0e-JYQ">
+                                <rect key="frame" x="44" y="47" width="50" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="cYd-vY-Mg4"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="qKd-iB-u8S"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5eg-ZT-0uv"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="l0a-D0-CxF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="50" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0um-bA-Ydm">
+                                <rect key="frame" x="89" y="46" width="52" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="ETW-Fe-Rdg"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="cfX-QZ-WQL"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="FKh-RG-azk"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ojt-jc-Lox"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="52" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPA-ig-eFf">
+                                <rect key="frame" x="139" y="56" width="52" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="DEi-A2-RCs"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="MFG-Xq-3Fv"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="1vo-HA-PRs"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PX0-Ui-7G5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="53" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC7-Mz-Jh4">
+                                <rect key="frame" x="191" y="61" width="58" height="541"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="URe-91-usR"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="xdV-Bo-w6p"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="9U0-df-hkS"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WjO-yN-mri"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="55" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upn-84-W1I">
+                                <rect key="frame" x="253" y="56" width="58" height="506"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="iJz-lV-wkq"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="yfu-H2-bi9"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="KYC-1M-7Z7"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bNH-xl-V8f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="57" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dX5-dq-4gW">
+                                <rect key="frame" x="312" y="61" width="58" height="456"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="2Th-jt-kNg"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="fih-WN-eS8"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="CKc-5G-ck9"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a8w-8K-atX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="59" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1O-30-Nry">
+                                <rect key="frame" x="378" y="57" width="52" height="441"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="A08-3G-JVh"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="f9I-Lf-o8J"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="2N1-Xw-TbO"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rNw-xV-X2Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="60" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYb-zJ-Yn5">
+                                <rect key="frame" x="431" y="61" width="64" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="b3f-Yf-q6j"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="oui-RX-265"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QTH-p6-CQm"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="xeC-3Y-6ga"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="62" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRR-BP-JBs">
+                                <rect key="frame" x="497" y="61" width="57" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="VzQ-Hz-ifN"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="imp-XY-LZ0"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="THv-QX-wxN"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aM9-vO-IOl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="64" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjx-6W-7hh">
+                                <rect key="frame" x="557" y="56" width="53" height="318"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="QX4-Hy-xeg"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="wO9-Rg-WQJ"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a8s-My-kJ7"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="hfn-4b-OHa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="65" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Roo-Mk-JEB">
+                                <rect key="frame" x="616" y="56" width="46" height="301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="pZn-KR-Aum"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="v5q-xj-TCt"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="aUt-td-aoR"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vCA-QZ-ZUc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="67" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPC-Dv-YBA">
+                                <rect key="frame" x="665" y="55" width="55" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="AR3-cr-S0g"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="hw4-wC-amJ"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="8i6-Zq-Xi3"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ybF-9A-0Xj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="69" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymt-tM-dk6">
+                                <rect key="frame" x="723" y="53" width="46" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="0BN-Y4-53N"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="y9H-4B-sZM"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="FFu-v4-q92"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OFG-Bk-g4p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="71" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ra1-rA-cKe">
+                                <rect key="frame" x="773" y="47" width="46" height="223"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="Ebu-1l-8TG"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="wKR-W2-mGj"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="h5O-43-XOo"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xST-XJ-F06"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="72" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XR-9S-30G">
+                                <rect key="frame" x="818" y="47" width="46" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="TY6-jt-lWw"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="dOY-Yg-Ac1"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="1aI-ES-Up0"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SCv-f1-3Cz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="74" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvQ-X1-cf5">
+                                <rect key="frame" x="864" y="43" width="46" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="4ec-nT-N07"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="Ml4-vd-NH1"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NEI-0v-k3a"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="kfO-dU-zT6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="76" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRI-Ve-FeN">
+                                <rect key="frame" x="906" y="38" width="46" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="8N6-Y3-2sE"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="T5o-1b-vds"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="IJJ-lM-pC9"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SUr-1t-U10"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" tag="77" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKP-Fx-ZgA">
+                                <rect key="frame" x="946" y="39" width="46" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDown" id="UO7-mB-B2D"/>
+                                    <action selector="playNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="kuY-bS-hEg"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchDragExit" id="JKL-i7-CGa"/>
+                                    <action selector="stopNoteFromTag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wZ5-Ar-TlU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3y-vM-hZV">
+                                <rect key="frame" x="958" y="717" width="22" height="22"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <segue destination="Zeb-aQ-lYJ" kind="popoverPresentation" popoverAnchorView="P3y-vM-hZV" id="aHz-bd-OZO">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SZW-Mv-Yvf">
+                                <rect key="frame" x="861" y="713" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="toggleNoteNameLabels:" destination="BYZ-38-t0r" eventType="valueChanged" id="nGk-3t-r2V"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Note Names:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tck-kY-PUL">
+                                <rect key="frame" x="750" y="718" width="103" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rhr-30-Meq">
+                                <rect key="frame" x="43" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zni-CB-HLH">
+                                <rect key="frame" x="89" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxJ-ag-yUk">
+                                <rect key="frame" x="139" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wX-uR-Ear">
+                                <rect key="frame" x="193" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="G" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZV-PZ-Bgc">
+                                <rect key="frame" x="253" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOG-Pe-1Fj">
+                                <rect key="frame" x="316" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Es5-7d-vDl">
+                                <rect key="frame" x="378" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mL-6O-GAZ">
+                                <rect key="frame" x="442" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03q-hP-JGL">
+                                <rect key="frame" x="502" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8e-z1-8kh">
+                                <rect key="frame" x="562" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFU-Z4-KXI">
+                                <rect key="frame" x="619" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="G" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XdS-0O-FXY">
+                                <rect key="frame" x="673" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="587-ya-nVR">
+                                <rect key="frame" x="725" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RD-Ly-WCF">
+                                <rect key="frame" x="775" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5g-sl-jBP">
+                                <rect key="frame" x="823" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ej8-6N-jmM">
+                                <rect key="frame" x="869" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VoI-kp-R18">
+                                <rect key="frame" x="908" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTl-ju-17O">
+                                <rect key="frame" x="948" y="74" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="P3y-vM-hZV" secondAttribute="trailing" constant="24" id="2pa-sE-Qoe"/>
+                            <constraint firstAttribute="trailing" secondItem="r0w-u2-nrM" secondAttribute="trailing" id="3Yr-a4-iML"/>
+                            <constraint firstItem="r0w-u2-nrM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3w9-KI-SlE"/>
+                            <constraint firstItem="r0w-u2-nrM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Rm-JN-fEV"/>
+                            <constraint firstItem="Tbq-1L-JL6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="12" id="ASg-sb-7f8"/>
+                            <constraint firstAttribute="bottom" secondItem="r0w-u2-nrM" secondAttribute="bottom" id="FdD-p4-nZj"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Tbq-1L-JL6" secondAttribute="trailing" id="I8m-QJ-U4F"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="P3y-vM-hZV" secondAttribute="bottom" constant="29" id="ifh-C2-Mlg"/>
+                            <constraint firstItem="Tbq-1L-JL6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="npB-aj-7PD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="noteLabels" destination="Rhr-30-Meq" collectionClass="NSMutableArray" id="tSa-8V-nQg"/>
+                        <outletCollection property="noteLabels" destination="zni-CB-HLH" collectionClass="NSMutableArray" id="fhI-cz-MHD"/>
+                        <outletCollection property="noteLabels" destination="jxJ-ag-yUk" collectionClass="NSMutableArray" id="PPp-Ng-CbU"/>
+                        <outletCollection property="noteLabels" destination="9wX-uR-Ear" collectionClass="NSMutableArray" id="BEo-rG-kIP"/>
+                        <outletCollection property="noteLabels" destination="KZV-PZ-Bgc" collectionClass="NSMutableArray" id="yu1-F9-Uyf"/>
+                        <outletCollection property="noteLabels" destination="OOG-Pe-1Fj" collectionClass="NSMutableArray" id="M18-iN-Qaj"/>
+                        <outletCollection property="noteLabels" destination="Es5-7d-vDl" collectionClass="NSMutableArray" id="g3K-6t-uc6"/>
+                        <outletCollection property="noteLabels" destination="0mL-6O-GAZ" collectionClass="NSMutableArray" id="hT3-19-Wjt"/>
+                        <outletCollection property="noteLabels" destination="03q-hP-JGL" collectionClass="NSMutableArray" id="6Sz-Xg-0z9"/>
+                        <outletCollection property="noteLabels" destination="S8e-z1-8kh" collectionClass="NSMutableArray" id="YVq-uN-UxC"/>
+                        <outletCollection property="noteLabels" destination="bFU-Z4-KXI" collectionClass="NSMutableArray" id="CFu-5O-rJJ"/>
+                        <outletCollection property="noteLabels" destination="XdS-0O-FXY" collectionClass="NSMutableArray" id="yOh-6M-c4M"/>
+                        <outletCollection property="noteLabels" destination="587-ya-nVR" collectionClass="NSMutableArray" id="DHR-rd-986"/>
+                        <outletCollection property="noteLabels" destination="2RD-Ly-WCF" collectionClass="NSMutableArray" id="thz-Ps-5gN"/>
+                        <outletCollection property="noteLabels" destination="K5g-sl-jBP" collectionClass="NSMutableArray" id="uvr-LA-zBe"/>
+                        <outletCollection property="noteLabels" destination="ej8-6N-jmM" collectionClass="NSMutableArray" id="Kqq-ph-kez"/>
+                        <outletCollection property="noteLabels" destination="VoI-kp-R18" collectionClass="NSMutableArray" id="ubh-oP-mjM"/>
+                        <outletCollection property="noteLabels" destination="TTl-ju-17O" collectionClass="NSMutableArray" id="WQp-r3-DwQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.984375" y="39.84375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LhJ-Cs-9dr">
+            <objects>
+                <viewController id="Zeb-aQ-lYJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n0a-8u-w2J"/>
+                        <viewControllerLayoutGuide type="bottom" id="atE-fb-YJH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ESG-aY-ONc">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fff-ZI-wls">
+                                <rect key="frame" x="20" y="20" width="361" height="260"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Pan!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sAt-yP-e5R">
+                                        <rect key="frame" x="116" y="0.0" width="129" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pan works best in landscape mode." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXk-mW-PGM">
+                                        <rect key="frame" x="67" y="48.5" width="227.5" height="25.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25.5" id="ZRb-Wt-EK4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just tap on the tubes to play your virtual pan flute! (Hint: C is the lowest note)" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnM-7s-Ekd">
+                                        <rect key="frame" x="16" y="84" width="329.5" height="52"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="52" id="N9S-Tw-3AM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comments or concerns? Contact the developer at: bridget.bailey@huskers.unl.edu" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6TW-Vb-GqG">
+                                        <rect key="frame" x="15.5" y="146" width="330" height="52"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="52" id="q3h-Tf-XrS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photo Credit: Pixabay.com                                           Soundfont: gs_instruments" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3M3-i3-nWX">
+                                        <rect key="frame" x="13" y="208" width="335" height="52"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="52" id="obK-2w-nf5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="EWL-XX-TUQ"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fff-ZI-wls" firstAttribute="top" secondItem="n0a-8u-w2J" secondAttribute="bottom" id="la5-KP-huo"/>
+                            <constraint firstItem="Fff-ZI-wls" firstAttribute="centerX" secondItem="ESG-aY-ONc" secondAttribute="centerX" id="mh1-WT-02s"/>
+                            <constraint firstItem="Fff-ZI-wls" firstAttribute="centerY" secondItem="ESG-aY-ONc" secondAttribute="centerY" id="nYn-fS-Zrl"/>
+                            <constraint firstItem="Fff-ZI-wls" firstAttribute="leading" secondItem="ESG-aY-ONc" secondAttribute="leadingMargin" id="pjR-vW-tBR"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gag-7L-UXU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.984375" y="628.90625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Water Background" width="2732" height="2048"/>
+        <image name="pan-flute" width="1690" height="1198"/>
+    </resources>
+</document>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notes-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="MIDI_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Gt-Q1-wGW">
+                                <rect key="frame" x="70" y="68.5" width="628" height="887"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Statue" translatesAutoresizingMaskIntoConstraints="NO" id="kvt-jC-UNk">
+                                        <rect key="frame" x="0.0" y="0.0" width="628" height="837"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="kvt-jC-UNk" secondAttribute="height" multiplier="3:4" id="Fpq-NN-QSx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="center" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="mK7-Yp-QjU">
+                                        <rect key="frame" x="0.0" y="857" width="628" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="60" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psB-fo-OfP">
+                                                <rect key="frame" x="0.0" y="0.0" width="176" height="30"/>
+                                                <state key="normal" title="C major"/>
+                                                <connections>
+                                                    <action selector="playNoteFromTag:" destination="9pv-A4-QxB" eventType="touchDown" id="gy3-BC-XwZ"/>
+                                                    <action selector="stopNoteFromTag:" destination="9pv-A4-QxB" eventType="touchUpInside" id="lQh-1x-5cx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="62" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpw-xf-Ah0">
+                                                <rect key="frame" x="226" y="0.0" width="176" height="30"/>
+                                                <state key="normal" title="D minor"/>
+                                                <connections>
+                                                    <action selector="playNoteFromTag:" destination="9pv-A4-QxB" eventType="touchDown" id="bCA-PC-jr8"/>
+                                                    <action selector="stopNoteFromTag:" destination="9pv-A4-QxB" eventType="touchUpInside" id="VvY-1B-Vdl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="65" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKL-fa-IpF">
+                                                <rect key="frame" x="452" y="0.0" width="176" height="30"/>
+                                                <state key="normal" title="F major"/>
+                                                <connections>
+                                                    <action selector="playNoteFromTag:" destination="9pv-A4-QxB" eventType="touchDown" id="BDE-xx-jk9"/>
+                                                    <action selector="stopNoteFromTag:" destination="9pv-A4-QxB" eventType="touchUpInside" id="YlJ-DV-Qq9"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mK7-Yp-QjU" firstAttribute="centerX" secondItem="4Gt-Q1-wGW" secondAttribute="centerX" id="ri1-EZ-4bk"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Gt-Q1-wGW" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="0oI-0d-POf"/>
+                            <constraint firstItem="4Gt-Q1-wGW" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="4ag-j9-v35"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4Gt-Q1-wGW" secondAttribute="trailing" constant="50" id="EgO-XO-E0J"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Notes" image="first" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+        </scene>
+        <!--Song-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="MIDI_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="gR1-Cb-3UJ">
+                                <rect key="frame" x="332.5" y="802" width="103" height="29"/>
+                                <segments>
+                                    <segment title="Play"/>
+                                    <segment title="Pause"/>
+                                </segments>
+                                <connections>
+                                    <action selector="midiTransport:" destination="8rJ-Kc-sve" eventType="valueChanged" id="hdi-XF-vKs"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crescent" translatesAutoresizingMaskIntoConstraints="NO" id="rMN-c9-DRy">
+                                <rect key="frame" x="30" y="140" width="708" height="531"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.10000000000000001" height="0.10000000000000001"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rMN-c9-DRy" secondAttribute="height" multiplier="4:3" id="WO4-qN-bhJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rMN-c9-DRy" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="Ywz-xC-MCW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rMN-c9-DRy" secondAttribute="trailing" constant="10" id="alw-uI-fEd"/>
+                            <constraint firstItem="rMN-c9-DRy" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" constant="-106.5" id="dnD-sj-qQa"/>
+                            <constraint firstItem="rMN-c9-DRy" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="10" id="eHB-6s-gdg"/>
+                            <constraint firstItem="gR1-Cb-3UJ" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="iRu-aa-8Nh"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="gR1-Cb-3UJ" secondAttribute="bottom" constant="145" id="lMr-C5-PKL"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Song" image="second" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Crescent" width="1600" height="1200"/>
+        <image name="Statue" width="2736" height="3648"/>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>
